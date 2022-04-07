@@ -25,16 +25,6 @@ public class MainActivity extends AppCompatActivity {
         this.listView = findViewById(R.id.listView);
         this.spinner = findViewById(R.id.spinner);
 
-//        final ArrayList<String> students = new ArrayList<>();
-//        students.add("Bob");
-//        students.add("John");
-//        students.add("Marques");
-//        students.add("Linus");
-//        students.add("Elon");
-//
-//        ArrayAdapter<String> studentsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, students);
-//        spinner.setAdapter(studentsAdapter);
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
